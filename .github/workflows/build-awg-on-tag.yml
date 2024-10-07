@@ -30,7 +30,7 @@ jobs:
 
 # Raspberry Pi 3B+
           - tag: "23.05.5"
-            pkgarch: mipsel_24kc
+            pkgarch: aarch64_cortex-a53
             target: bcm27xx
             subtarget: bcm2710
             vermagic: "1794bb3c19c193dd2831d2197ed43ce2"
