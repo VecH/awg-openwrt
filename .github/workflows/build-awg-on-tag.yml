@@ -29,11 +29,18 @@ jobs:
 #            vermagic: "144de9e5c1a8813b724b14faa054d9f0"
 
 # Raspberry Pi 3B+
-          - tag: "23.05.5"
+#          - tag: "23.05.5"
+#            pkgarch: aarch64_cortex-a53
+#            target: bcm27xx
+#            subtarget: bcm2710
+#            vermagic: "1794bb3c19c193dd2831d2197ed43ce2"
+
+# Beryal AX (V4.6.8)
+          - tag: "21.02-SNAPSHOT"
             pkgarch: aarch64_cortex-a53
-            target: bcm27xx
-            subtarget: bcm2710
-            vermagic: "1794bb3c19c193dd2831d2197ed43ce2"
+            target: mediatek
+            subtarget: mt7981
+            vermagic: "86cd10224392f0f1f47de97edd009387"
 
     steps:
       - uses: actions/checkout@v4
