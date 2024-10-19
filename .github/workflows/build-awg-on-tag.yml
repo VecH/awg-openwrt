@@ -36,7 +36,7 @@ jobs:
 #            vermagic: "1794bb3c19c193dd2831d2197ed43ce2"
 
 # Beryal AX (V4.6.8)
-          - tag: "21.02-SNAPSHOT"
+          - tag: "v21.02.7"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7981
